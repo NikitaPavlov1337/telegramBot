@@ -40,9 +40,8 @@ if __name__ == '__main__':
     webhook_path=WEBHOOK_URL_PATH,
     on_startup=on_startup,
     on_shutdown=on_shutdown,
-    skip_updates=False,
     host=WEBAPP_HOST,
-    port=WEBAPP_PORT,)
+    port=WEBAPP_PORT)
 
 
 
